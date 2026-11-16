@@ -1,0 +1,42 @@
+@use "variables" as *;
+@use "mixins" as *;
+
+.site-header {
+  padding-block: 10px;
+  background: $color-surface;
+
+  &__inner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $gap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo { margin-right: auto; }
+
+  &__nav {
+    display: none;
+    flex-direction: column;
+    gap: $gap;
+    width: 100%;
+    padding-top: $gap;
+    border-top: 1px solid rgba($color-text, .12);
+
+    &.is-open { display: flex; }
+
+    @include mq("md") {
+      display: flex;
+      flex-direction: row;
+      width: auto;
+      padding-top: 0;
+      border-top: 0;
+    }
+  }
+}
+
+.site-footer {
+  margin-top: $gap;
+  padding-block: $gap;
+  color: $color-muted;
+}

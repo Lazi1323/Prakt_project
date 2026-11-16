@@ -1,0 +1,121 @@
+@media (max-width: 1200px) {
+  .site-header {
+
+    &__inner {
+      justify-content: center;
+    }
+
+    &__nav-a:hover {
+      transform: rotate(0);
+    }
+
+  }
+
+  .card_container {
+    width: 100%;
+  }
+
+  .div__word-card1,
+  .div__word-card2 {
+    flex: 1;
+  }
+
+  .div__word_card3 {
+    width: 100%;
+  }
+
+  .cart_sec1,
+  .cart_sec2 {
+    width: 100%;
+    height: auto;
+  }
+
+  .work-card {
+    &__image-minecraft {
+      width: 100%;
+      height: 130%;
+    }
+
+    &__image-terraria {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+
+}
+
+@media (max-width: 768px) {
+  .site-header {
+    &__logo {
+      font-size: 1.5rem;
+    }
+
+    &__nav-a {
+      font-size: 1.1rem;
+    }
+  }
+
+  .page_section {
+    padding-bottom: 30px;
+
+    &__title {
+      font-size: 2rem;
+    }
+
+    &__text {
+      font-size: 1.1rem;
+    }
+
+    &__div {
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    &__div_left,
+    &__div_right {
+      width: 100%;
+    }
+  }
+
+  .card_container {
+    flex-direction: column;
+  }
+
+  .work-card {
+    &__minecraft-title,
+    &__title-terraria,
+    &__title-fh_6 {
+      font-size: 1.6rem;
+    }
+  }
+
+  .news-card {
+    flex-direction: column;
+
+    &__image {
+      width: 100%;
+      height: 255px;
+    }
+  }
+
+  .game-info {
+    flex-direction: column;
+
+    &__poster {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .game-req {
+    flex-direction: column;
+  }
+
+  .site-header {
+
+    &__nav-a:hover {
+      transform: rotate(0);
+    }
+  }
+}
