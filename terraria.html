@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Название проекта — практика</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+    <div class="container site-header__inner">
+        <a href="index.html" class="site-header__logo">Реценз</a>
+
+        <button class="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="site-nav">
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+        </button>
+
+        <nav class="site-header__nav" id="site-nav">
+            <a href="index.html" class="site-header__nav-a">Главная</a>
+            <a href="index.html#catalog" class="site-header__nav-a">Рецензии</a>
+            <a href="news.html" class="site-header__nav-a">Новости</a>
+        </nav>
+    </div>
+</header>
+
+<main class="site-main">
+    <section class="catalog">
+        <div class="container">
+            <section class="page_section">
+                <h1 class="page_section__title">Terraria</h1>
+            </section>
+
+            <div class="game-info">
+                <img class="game-info__poster" src="src/img/terraria.jpg" alt="Terraria">
+                <div class="game-info__body">
+                    <p class="game-info__row"><b>Год выпуска:</b> 2011</p>
+                    <p class="game-info__row"><b>Жанр:</b> Песочница, Приключения, Экшен</p>
+                    <p class="game-info__row"><b>Разработчик:</b> Re-Logic</p>
+                    <p class="game-info__row"><b>Издатель:</b> Re-Logic, 505 Games</p>
+                    <p class="game-info__row"><b>Платформа:</b> PC, PlayStation, Xbox, Switch, Android, iOS</p>
+                    <p class="game-info__row"><b>Язык интерфейса:</b> Русский, Английский</p>
+                </div>
+            </div>
+
+            <div class="game-desc">
+                <h2 class="game-desc__title">Описание</h2>
+                <p class="game-desc__text">Terraria — это двухмерная приключенческая песочница, в которой упор сделан на
+                    исследование подземного мира, прокачку персонажа и битвы с кучей разных боссов. Сначала ты
+                    появляешься с базовыми инструментами, рубишь деревья, строишь дома для NPC-торговцев и спускаешься
+                    всё глубже под землю в поисках редкой руды и артефактов. В игре сотни видов оружия, брони и
+                    аксессуаров, а после победы над "Стеной плоти" мир переходит в хардмод с новыми биомами и ещё более
+                    сложными боссами.</p>
+            </div>
+
+            <div class="game-desc">
+                <h2 class="game-desc__title">Системные требования</h2>
+                <div class="game-req">
+                    <div class="game-req__col">
+                        <h3 class="game-req__title">Минимальные</h3>
+                        <p class="game-req__row"><b>ОС:</b> Windows XP / Vista / 7 / 10</p>
+                        <p class="game-req__row"><b>Процессор:</b> 2.0 ГГц</p>
+                        <p class="game-req__row"><b>Оперативная память:</b> 2.5 ГБ</p>
+                        <p class="game-req__row"><b>Видеокарта:</b> 128 МБ видеопамяти</p>
+                        <p class="game-req__row"><b>Место на диске:</b> 200 МБ</p>
+                    </div>
+                    <div class="game-req__col">
+                        <h3 class="game-req__title">Рекомендуемые</h3>
+                        <p class="game-req__row"><b>ОС:</b> Windows 7 / 8 / 10 / 11</p>
+                        <p class="game-req__row"><b>Процессор:</b> Dual Core 3.0 ГГц</p>
+                        <p class="game-req__row"><b>Оперативная память:</b> 4 ГБ</p>
+                        <p class="game-req__row"><b>Видеокарта:</b> 256 МБ видеопамяти</p>
+                        <p class="game-req__row"><b>Место на диске:</b> 500 МБ</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="game-desc">
+                <h2 class="game-desc__title">Оценка и рецензии</h2>
+                <p class="game-rating">Общая оценка: <span>9.7 / 10</span></p>
+
+                <div class="review-item">
+                    <div class="review-item__top">
+                        <b class="review-item__author">MoonLord</b>
+                        <span class="review-item__score">10 / 10</span>
+                    </div>
+                    <p class="review-item__text">Думал это просто 2D-майнкрафт, а оказалось тут боссов и оружия в десять
+                        раз больше. Прошли с другом на эксперте, кайфанули.</p>
+                </div>
+
+                <div class="review-item">
+                    <div class="review-item__top">
+                        <b class="review-item__author">GuideNPC</b>
+                        <span class="review-item__score">9.5 / 10</span>
+                    </div>
+                    <p class="review-item__text">За свои деньги просто топ. Без википедии поначалу сложно понять, что
+                        крафтить, но когда разберёшься — затягивает на сотни часов.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="container">Учебная практика, 2026</div>
+</footer>
+</body>
+</html>

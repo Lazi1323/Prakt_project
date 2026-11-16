@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Название проекта — практика</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+    <div class="container site-header__inner">
+        <a href="index.html" class="site-header__logo">Реценз</a>
+
+        <button class="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="site-nav">
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+        </button>
+
+        <nav class="site-header__nav" id="site-nav">
+            <a href="index.html" class="site-header__nav-a">Главная</a>
+            <a href="index.html#catalog" class="site-header__nav-a">Рецензии</a>
+            <a href="news.html" class="site-header__nav-a">Новости</a>
+        </nav>
+    </div>
+</header>
+
+<main class="site-main">
+    <section class="catalog">
+        <div class="container">
+            <section class="page_section">
+                <h1 class="page_section__title">Новости</h1>
+            </section>
+
+            <article class="news-card">
+                <img class="news-card__image" src="src/img/FH_6.jpg" alt="Forza Horizon 6">
+                <div class="news-card__body">
+                    <p class="news-card__date">19.05.2026</p>
+                    <h2 class="news-card__title">Forza Horizon 6 вышла</h2>
+                    <p class="news-card__text">Новая часть гоночной серии официально вышла на ПК и Xbox Series X/S. На этот раз фестиваль Horizon переехал в Японию, а карта стала самой большой за всю историю игры. Игрокам доступны ночной Токио, горные серпантины для дрифта и больше 800 машин со старта. В первые же сутки онлайн игры побил рекорды прошлых частей, хотя некоторые игроки жалуются на просадки FPS в центре города.</p>
+                </div>
+            </article>
+
+            <article class="news-card">
+                <img class="news-card__image" src="src/img/minecraft.png" alt="Minecraft">
+                <div class="news-card__body">
+                    <p class="news-card__date">10.05.2026</p>
+                    <h2 class="news-card__title">Minecraft получит новое обновление</h2>
+                    <p class="news-card__text">Студия Mojang показала следующее крупное обновление для Minecraft. В игру добавят новый подземный биом, несколько видов руды и новых враждебных мобов, которые появляются только на большой глубине. Кроме того, разработчики переработали генерацию данжей и добавили новые блоки для строительства. Тестовый снапшот уже можно скачать в лаунчере на ПК, а полный выход патча запланирован на лето.</p>
+                </div>
+            </article>
+
+            <article class="news-card">
+                <img class="news-card__image" src="src/img/terraria.jpg" alt="Terraria">
+                <div class="news-card__body">
+                    <p class="news-card__date">02.05.2026</p>
+                    <h2 class="news-card__title">Terraria снова в топе продаж</h2>
+                    <p class="news-card__text">Несмотря на то что Terraria вышла ещё в 2011 году, игра снова ворвалась в топ продаж Steam на весенней распродаже. Разработчики из Re-Logic в очередной раз пообещали выпустить «самое последнее» обновление, в котором появятся новые боссы, оружие и кроссовер с другими инди-играми. Сейчас у игры больше миллиона положительных отзывов в Steam, и она остаётся одной из самых высокооценённых игр на площадке.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="container">Учебная практика, 2026</div>
+</footer>
+</body>
+</html>
